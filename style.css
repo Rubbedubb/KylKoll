@@ -151,3 +151,17 @@ main {
 
     cursor: pointer;
 }
+
+.slider-container {
+    display: none;
+
+    margin-top: 10px;
+}
+
+.slider-container.visible {
+    display: block;
+}
+
+.amount-slider {
+    width: 100%;
+}
